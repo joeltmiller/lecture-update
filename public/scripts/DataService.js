@@ -13,6 +13,7 @@ angular.module('routeApp').factory('DataService', function($http){
   }
 
   function makeCall(){
+    console.log(new Date());
     $http.get('/pets').then(handleSuccess, handleFailure);
   }
 

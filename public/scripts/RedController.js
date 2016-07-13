@@ -2,6 +2,4 @@ angular.module('routeApp').controller('RedController', function($scope, DataServ
 
   $scope.data = DataService.data;
 
-  // DataService.callServer();
-
 });
